@@ -90,9 +90,9 @@ fully thread safe.
 
 To install all subpackages of *mymysql* you need to goinstal three of them:
 
-	$ go get github.com/ziutek/mymysql/thrsafe
-	$ go get github.com/ziutek/mymysql/autorc
-	$ go get github.com/ziutek/mymysql/godrv
+	$ go get github.com/promptcloud/mymysql/thrsafe
+	$ go get github.com/promptcloud/mymysql/autorc
+	$ go get github.com/promptcloud/mymysql/godrv
 
 *go get* automagically selects the proper version of *mymysql* for your Go 
 release. After this command *mymysql* is ready to use.
@@ -111,7 +111,7 @@ The default MySQL server address is *127.0.0.1:3306*.
 
 Next run tests:
 
-	$ cd $GOPATH/src/github.com/ziutek/mymysql
+	$ cd $GOPATH/src/github.com/promptcloud/mymysql
 	$ ./all.bash test
 
 ## Examples
