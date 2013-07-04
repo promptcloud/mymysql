@@ -1,5 +1,5 @@
-Sorry for my poor English. If you can help with improving the English in this
-documentation, please contact me.
+In the examples below, replace 'ziutek' by 'promptcloud'. (ziutek is the original author)
+
 
 ## MyMySQL v1.4 (2013-03-04)
 
@@ -122,9 +122,9 @@ Next run tests:
 
 	import (
 		"os"
-		"github.com/ziutek/mymysql/mysql"
-		_ "github.com/ziutek/mymysql/native" // Native engine
-		// _ "github.com/ziutek/mymysql/thrsafe" // Thread safe engine
+		"github.com/promptcloud/mymysql/mysql"
+		_ "github.com/promptcloud/mymysql/native" // Native engine
+		// _ "github.com/promptcloud/mymysql/thrsafe" // Thread safe engine
 	)
 
 	func main() {
