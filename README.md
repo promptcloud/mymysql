@@ -363,8 +363,8 @@ This is the improved code of the previous example:
 ### Example 5 - transactions
 
 	import (
-		"github.com/ziutek/mymysql/mysql"
-		_ "github.com/ziutek/mymysql/thrsafe" // for thread safe transactions
+		"github.com/promptcloud/mymysql/mysql"
+		_ "github.com/promptcloud/mymysql/thrsafe" // for thread safe transactions
 	)
 	// [...]
 
@@ -407,8 +407,8 @@ This is the improved code of the previous example:
 ### Example 6 - autoreconn interface
 
 	import (
-		"github.com/ziutek/mymysql/autorc"
-		_ "github.com/ziutek/mymysql/thrsafe" // You may also use the native engine
+		"github.com/promptcloud/mymysql/autorc"
+		_ "github.com/promptcloud/mymysql/thrsafe" // You may also use the native engine
 	)
 
 	// [...]
@@ -499,8 +499,8 @@ This is the improved code of the previous example:
 ### Example 8 - use stored procedures
 
 	import (
-		"github.com/ziutek/mymysql/mysql"
-		_ "github.com/ziutek/mymysql/thrsafe" // or native
+		"github.com/promptcloud/mymysql/mysql"
+		_ "github.com/promptcloud/mymysql/thrsafe" // or native
 	)
 
 	// [...]
@@ -527,8 +527,8 @@ This is the improved code of the previous example:
 ### Example 9 - transactions using autorc
 
 	import (
-		"github.com/ziutek/mymysql/autorc"
-		_ "github.com/ziutek/mymysql/thrsafe" // You may also use the native engine
+		"github.com/promptcloud/mymysql/autorc"
+		_ "github.com/promtpcloud/mymysql/thrsafe" // You may also use the native engine
 	)
 
 	// [...]
