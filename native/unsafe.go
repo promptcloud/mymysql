@@ -1,7 +1,7 @@
 package native
 
 import (
-	"github.com/ziutek/mymysql/mysql"
+	"github.com/promptcloud/mymysql/mysql"
 	"time"
 	"unsafe"
 )

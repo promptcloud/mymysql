@@ -3,7 +3,7 @@ package godrv
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ziutek/mymysql/mysql"
+	"github.com/promptcloud/mymysql/mysql"
 	"testing"
 	"time"
 )

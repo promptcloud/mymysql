@@ -1,8 +1,8 @@
 package thrsafe
 
 import (
-	"github.com/ziutek/mymysql/mysql"
-	"github.com/ziutek/mymysql/native"
+	"github.com/promptcloud/mymysql/mysql"
+	"github.com/promptcloud/mymysql/native"
 	"testing"
 )
 
